@@ -50,7 +50,7 @@ const CoffeeCard: FC<CoffeeCardProps> = ({ id,
       start={{ x: 0, y: 0 }}
       end={{ x: 1, y: 1 }}
       style={styles.CardLinearGradientContainer}
-      colors={[COLORS.primaryGreyHex, COLORS.primaryBlackHex]}>
+      colors={[COLORS.primaryGreyHex, COLORS.secondaryBlackRGBA]}>
       <ImageBackground
         source={imagelink_square}
         style={styles.CardImageBG}

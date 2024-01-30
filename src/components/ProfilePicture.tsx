@@ -5,7 +5,7 @@ import { COLORS, SPACING } from '../theme/theme'
 const ProfilePicture = () => {
     return (
         <View style={styles.ImageContainer}>
-            <Image style={styles.Image} source={require("../assets/app_images/avatar.png")} />
+            <Image style={styles.Image} source={require("../assets/app_images/avatar.webp")} />
         </View>
     )
 }
